@@ -1,0 +1,196 @@
+.container {
+  width: 24rem; /* w-96 */
+  border-left: 1px solid var(--border);
+  background-color: var(--card);
+  padding: 1.5rem;
+  height: 100vh;
+  position: relative;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 0.75rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--foreground);
+}
+
+.scrollArea {
+  height: calc(100vh - 8rem);
+  padding-right: 0.5rem;
+}
+
+.imageContainer {
+  position: relative;
+  height: 16rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background-color: var(--muted);
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.imageInfo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.75rem;
+  background-color: var(--muted);
+  border-radius: 0.375rem;
+  margin-bottom: 1.5rem;
+}
+
+.fileName {
+  font-size: 0.875rem;
+  font-weight: 500;
+  flex: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.dimensions {
+  font-size: 0.75rem;
+  color: var(--muted-foreground);
+  white-space: nowrap;
+}
+
+.section {
+  margin-bottom: 1.5rem;
+}
+
+.sectionHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.sectionTitle {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: var(--foreground);
+}
+
+.content {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  line-height: 1.5;
+}
+
+.loraList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.loraItem {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+  padding: 0.25rem 0;
+}
+
+.metadataGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.metadataItem {
+  background-color: var(--muted);
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+}
+
+.metadataLabel {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: var(--foreground);
+  margin-bottom: 0.25rem;
+}
+
+.metadataValue {
+  font-size: 0.875rem;
+  color: var(--muted-foreground);
+}
+
+.copyButton {
+  opacity: 0.7;
+  transition: opacity 0.2s;
+}
+
+.copyButton:hover {
+  opacity: 1;
+}
+
+.noMetadata {
+  text-align: center;
+  padding: 2rem;
+  color: var(--muted-foreground);
+  background-color: var(--muted);
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.modelPath {
+  background-color: var(--muted);
+  padding: 0.75rem;
+  border-radius: 0.375rem;
+  font-family: ui-monospace, monospace;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  overflow-wrap: break-word;
+}
+
+.modelPathSegment {
+  color: var(--muted-foreground);
+}
+
+.modelPathSegment:last-child {
+  color: var(--foreground);
+  font-weight: 500;
+}
+
+.modelPathSeparator {
+  color: var(--muted-foreground);
+  margin: 0 0.25rem;
+  opacity: 0.5;
+}
+
+.rawMetadata {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border);
+}
+
+.container :global(.mantine-ScrollArea-root) {
+  height: 100%;
+}
+
+.container :global(.mantine-Button-root) {
+  font-weight: normal;
+  text-transform: none;
+}
+
+.container :global(.mantine-Text-root) {
+  color: inherit;
+  line-height: inherit;
+}
+
+.container :global(.mantine-Group-root) {
+  gap: inherit;
+}
+
+.container {
+  /* Mantine dark theme variables */
+  --mantine-color-body: var(--background);
+  --mantine-color-dark: var(--card);
+  --mantine-color-dark-6: var(--border);
+}

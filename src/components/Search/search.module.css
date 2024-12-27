@@ -1,0 +1,196 @@
+/* 使用命名空间避免污染 */
+.searchRoot {
+  width: 100%;
+  height: 100%;
+  /* padding: 0.75rem; */
+  display: flex;
+  align-items: center;
+}
+
+.searchWrapper {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: var(--soft-background);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.dropdownWrapper {
+  width: 120px;
+  height: 100%;
+  display: flex;
+}
+
+/* Select 组件样式 */
+.dropdownWrapper :global(.mantine-Select-root) {
+  height: 100%;
+  flex: 1;
+}
+
+.dropdownWrapper :global(.mantine-Select-wrapper) {
+  border: none;
+  height: 100%;
+  margin: 0;
+}
+
+.dropdownWrapper :global(.mantine-Select-input) {
+  cursor: pointer;
+  height: 100%;
+  padding: 0 0.75rem;
+  font-size: 0.875rem;
+  color: var(--text-color);
+  border: 1px solid transparent;
+  margin: 0;
+  border-radius: 4px 0px 0px 4px;
+  background-color: #343A40;
+  transition: all 0.2s ease;
+}
+
+/* 聚焦状态 */
+.dropdownWrapper :global(.mantine-Select-input:focus) {
+  border-color: var(--accent-color);
+  outline: none;
+}
+
+/* 下拉菜单样式 */
+.dropdownWrapper :global(.mantine-Select-dropdown) {
+  background-color: var(--background);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  margin-top: 4px;
+  padding: 4px 0;
+  z-index: 1000;
+  /* 移除默认动画 */
+  transform: none !important;
+  opacity: 1 !important;
+  transition: none !important;
+}
+
+/* 移除下拉菜单的动画效果 */
+.dropdownWrapper :global(.mantine-Select-dropdown[data-expanded]) {
+  transform: none !important;
+  opacity: 1 !important;
+}
+
+/* 下拉选项样式 */
+.dropdownWrapper :global(.mantine-Select-option) {
+  padding: 8px 16px;
+  font-size: 0.875rem;
+  color: var(--text-color);
+  transition: all 0.2s ease;
+  background: transparent;
+  position: relative;
+}
+
+/* 当前选中的选项 */
+.dropdownWrapper :global(.mantine-Select-option[aria-selected="true"]) {
+  background-color: var(--primary);
+  color: white;
+  width: 100%;
+  left: 1.75px;
+}
+
+/* 悬停状态的选项 */
+.dropdownWrapper :global(.mantine-Select-option:hover) {
+  background-color: var(--hover-bg);
+  left: 1.75px;
+}
+
+/* 选中项的悬停状态 */
+.dropdownWrapper :global(.mantine-Select-option[aria-selected="true"]:hover) {
+  background-color: var(--accent-hover);
+
+}
+
+/* 输入框展开状态 */
+.dropdownWrapper :global(.mantine-Select-input[aria-expanded="true"]) {
+  background-color: #343A40;
+}
+
+/* 右侧图标容器 */
+.dropdownWrapper :global(.mantine-Select-rightSection) {
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* TextInput 组件样式 */
+.inputWrapper {
+  flex: 1;
+  position: relative;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* 添加聚焦时的边框效果 */
+
+.inputWrapper::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: 0;
+  right: 0px;
+  bottom: 0px;
+  border-radius: 0 4px 4px 0;
+  border: 1px solid transparent;
+  pointer-events: none;
+  transition: border-color 0.2s ease;
+}
+
+.inputWrapper:focus-within::after {
+  border-color: var(--accent-color);
+}
+
+.inputWrapper :global(.mantine-TextInput-root) {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.inputWrapper :global(.mantine-TextInput-wrapper) {
+  border: none;
+  height: 100%;
+  margin: 0;
+}
+
+.inputWrapper :global(.mantine-TextInput-input) {
+  height: 100%;
+  padding: 0 3rem 0 1rem;
+  font-size: 0.875rem;
+  color: var(--text-color);
+  background-color: var(--input-bg);
+  border: none;
+  margin: 0;
+  border-radius: 0px 4px 4px 0px;
+  transition: color 0.2s ease;
+}
+
+.inputWrapper :global(.mantine-TextInput-input:hover),
+.inputWrapper :global(.mantine-TextInput-input:focus) {
+  background-color: var(--input-bg);
+  border-color: transparent;
+  outline: none;
+}
+
+
+
+/* 搜索按钮样式 */
+.searchButton {
+  position: absolute;
+  right: 0.5rem;
+  color: var(--text-color);
+  transition: opacity 0.2s ease;
+  background: #343A40;;
+}
+
+.searchButton:hover {
+  opacity: 0.7;
+  background: transparent;
+}

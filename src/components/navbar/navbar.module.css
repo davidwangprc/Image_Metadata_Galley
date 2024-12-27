@@ -1,0 +1,48 @@
+.navbar {
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--card-background);
+  padding: 0.5rem 1rem;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homeButton {
+  color: var(--text-color) !important;
+}
+
+/* Mantine 组件样式覆盖 */
+.button {
+  font-weight: normal;
+}
+.button:global(.mantine-Button-root) {
+  font-weight: normal;
+}
+
+.dropdown {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+}
+.dropdown:global(.mantine-Menu-dropdown) {
+  background-color: var(--card-background);
+  border: 1px solid var(--border-color);
+}
+
+.menuItem {
+  color: var(--text-color);
+}
+.menuItem:global(.mantine-Menu-item) {
+  color: var(--text-color);
+}
+
+.menuItemHover {
+  background-color: var(--hover-color);
+}
+.menuItemHover:global(.mantine-Menu-item:hover) {
+  background-color: var(--hover-color);
+}

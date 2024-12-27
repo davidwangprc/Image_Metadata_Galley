@@ -1,0 +1,148 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Image {
+  id            String   @id @default(uuid())
+  name          String   // 图片名称
+  path          String   // 图片路径
+  prompt        String   @db.Text  // 生成提示词
+  negativePrompt String? @db.Text // 反向提示词
+  
+  // 生成参数
+  modelName     String?  // 使用的模型名称
+  loraNames     String?  // 使用的 LoRA 名称列表，JSON 格式
+  embeddings    String?  // 使用的 Embedding 列表，JSON 格式
+  workflowId    String?  // 使用的 Workflow
+  wildcardSets  String?  // 使用的 Wildcard 集合，JSON 格式
+  cfg           Float?   // CFG Scale
+  steps         Int?     // 步数
+  seed          BigInt?  // 种子号
+  sampler       String?  // 采样器
+  size          String?  // 图片尺寸，格式如 "512x512"
+  
+  // 分类信息
+  category      String   // 分类，如 models/landscapes/portraits
+  tags          Tag[]    // 标签关联
+  nsfw          Boolean  @default(false)
+  
+  // 关联
+  model         Model?   @relation(fields: [modelName], references: [name])
+  workflow      Workflow? @relation(fields: [workflowId], references: [id])
+  
+  // 时间戳
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+
+  @@index([modelName])
+  @@index([category])
+  @@index([nsfw])
+  @@index([workflowId])
+}
+
+model Model {
+  id          String   @id @default(cuid())
+  name        String   @unique  // 模型名称
+  baseModel   String   // 基础模型，如 SD1.5/SDXL
+  type        String   // 类型：Checkpoint/LoRA/Embedding
+  version     String?  // 版本号
+  
+  // 详细信息
+  description String?  @db.Text
+  trigger     String?  // 触发词
+  url         String?  // 下载链接
+  homepage    String?  // 主页链接
+  category    String   // 分类
+  tags        Tag[]    
+  nsfw        Boolean  @default(false)
+  
+  // 关联
+  images      Image[]  // 使用该模型生成的图片
+  
+  // 时间戳
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([type])
+  @@index([category])
+  @@index([nsfw])
+}
+
+model Lora {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  version     String?
+  type        String   // Character/Style/Effect等
+  
+  // 详细信息
+  description String?  @db.Text
+  trigger     String?  // 触发词
+  weight      Float?   // 推荐权重
+  url         String?  // 下载链接
+  category    String
+  tags        Tag[]
+  nsfw        Boolean  @default(false)
+  
+  // 时间戳
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([type])
+  @@index([category])
+  @@index([nsfw])
+}
+
+model Workflow {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  description String?  @db.Text
+  nodes       String   @db.Text  // 工作流节点配置，JSON格式
+  category    String
+  tags        Tag[]
+  
+  // 关联
+  images      Image[]  // 使用该工作流生成的图片
+  
+  // 时间戳
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([category])
+}
+
+model Wildcard {
+  id          String   @id @default(cuid())
+  name        String   @unique
+  type        String   // 类型：Style/Character/Pose等
+  content     String   @db.Text  // 词条内容，每行一个
+  description String?  @db.Text
+  category    String
+  tags        Tag[]
+  nsfw        Boolean  @default(false)
+  
+  // 时间戳
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@index([type])
+  @@index([category])
+  @@index([nsfw])
+}
+
+model Tag {
+  id          String     @id @default(cuid())
+  name        String     @unique
+  type        String     // 标签类型：style/character/artist 等
+  images      Image[]
+  models      Model[]
+  loras       Lora[]
+  workflows   Workflow[]
+  wildcards   Wildcard[]
+  
+  @@index([type])
+} 

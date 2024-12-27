@@ -1,0 +1,638 @@
+page.tsx:9  Server  API Response: {
+  "images": [
+    {
+      "id": "34ff1b19-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "3d Printing",
+      "path": "image/ref-style/3d Printing.jpg",
+      "prompt": "Reference image for 3d Printing art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff2fb5-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Acrylic Paint",
+      "path": "image/ref-style/Acrylic Paint.jpg",
+      "prompt": "Reference image for Acrylic Paint art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff41b7-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Airbrush",
+      "path": "image/ref-style/Airbrush.jpg",
+      "prompt": "Reference image for Airbrush art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff5283-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Algorithmic Art",
+      "path": "image/ref-style/Algorithmic Art.jpg",
+      "prompt": "Reference image for Algorithmic Art art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff5ebc-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Animation",
+      "path": "image/ref-style/Animation.jpg",
+      "prompt": "Reference image for Animation art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff6f17-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Art Glass",
+      "path": "image/ref-style/Art Glass.jpg",
+      "prompt": "Reference image for Art Glass art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff8024-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Assemblage",
+      "path": "image/ref-style/Assemblage.jpg",
+      "prompt": "Reference image for Assemblage art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff8dd6-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Augmented Reality Art",
+      "path": "image/ref-style/Augmented Reality Art.jpg",
+      "prompt": "Reference image for Augmented Reality Art art style",
+      "negativePrompt": null,
+      "m
+page.tsx:13  Server  Processed images: [
+  {
+    "id": "34ff1b19-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "3d Printing",
+    "path": "image/ref-style/3d Printing.jpg",
+    "prompt": "Reference image for 3d Printing art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff2fb5-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Acrylic Paint",
+    "path": "image/ref-style/Acrylic Paint.jpg",
+    "prompt": "Reference image for Acrylic Paint art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff41b7-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Airbrush",
+    "path": "image/ref-style/Airbrush.jpg",
+    "prompt": "Reference image for Airbrush art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff5283-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Algorithmic Art",
+    "path": "image/ref-style/Algorithmic Art.jpg",
+    "prompt": "Reference image for Algorithmic Art art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff5ebc-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Animation",
+    "path": "image/ref-style/Animation.jpg",
+    "prompt": "Reference image for Animation art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff6f17-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Art Glass",
+    "path": "image/ref-style/Art Glass.jpg",
+    "prompt": "Reference image for Art Glass art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff8024-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Assemblage",
+    "path": "image/ref-style/Assemblage.jpg",
+    "prompt": "Reference image for Assemblage art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff8dd6-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Augmented Reality Art",
+    "path": "image/ref-style/Augmented Reality Art.jpg",
+    "prompt": "Reference image for Augmented Reality Art art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+   
+hook.js:608 ./src/components/meta/ImageLibrary.tsx
+Attempted import error: '@/components/meta/ImageMetadata' does not contain a default export (imported as 'ImageMetadata').
+overrideMethod @ hook.js:608
+hook.js:608 Image with src "/image/ref-style/Assemblage.jpg" was detected as the Largest Contentful Paint (LCP). Please add the "priority" property if this image is above the fold.
+Read more: https://nextjs.org/docs/api-reference/next/image#priority
+overrideMethod @ hook.js:608
+hook.js:608 React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports. Error Component Stack
+    at ImageLibrary (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageLibrary.tsx:16:53)
+    at BailoutToCSR (dynamic-bailout-to-csr.js:13:11)
+    at Suspense (<anonymous>)
+    at LoadableComponent (<anonymous>)
+    at MetaPage (<anonymous>)
+    at ClientPageRoot (client-page.js:14:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at MantineThemeProvider (MantineThemeProvider.mjs:33:11)
+    at MantineProvider (MantineProvider.mjs:30:11)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout (C:\AI-TOOLS\SD\sd_gallery-1\src\app\layout.tsx:59:3)
+    at ClientSegmentRoot (client-segment.js:14:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at DevRootHTTPAccessFallbackBoundary (dev-root-http-access-fallback-boundary.js:33:11)
+    at ReactDevOverlay (ReactDevOverlay.js:80:9)
+    at HotReload (hot-reloader-client.js:379:11)
+    at Router (app-router.js:183:11)
+    at ErrorBoundaryHandler (error-boundary.js:120:9)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at AppRouter (app-router.js:563:11)
+    at ServerRoot (app-index.js:145:46)
+    at Root (app-index.js:165:11)
+overrideMethod @ hook.js:608
+hook.js:600 React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports. Error Component Stack
+    at ImageLibrary (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageLibrary.tsx:16:53)
+    at BailoutToCSR (dynamic-bailout-to-csr.js:13:11)
+    at Suspense (<anonymous>)
+    at LoadableComponent (<anonymous>)
+    at MetaPage (<anonymous>)
+    at ClientPageRoot (client-page.js:14:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at MantineThemeProvider (MantineThemeProvider.mjs:33:11)
+    at MantineProvider (MantineProvider.mjs:30:11)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout (C:\AI-TOOLS\SD\sd_gallery-1\src\app\layout.tsx:59:3)
+    at ClientSegmentRoot (client-segment.js:14:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at DevRootHTTPAccessFallbackBoundary (dev-root-http-access-fallback-boundary.js:33:11)
+    at ReactDevOverlay (ReactDevOverlay.js:80:9)
+    at HotReload (hot-reloader-client.js:379:11)
+    at Router (app-router.js:183:11)
+    at ErrorBoundaryHandler (error-boundary.js:120:9)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at AppRouter (app-router.js:563:11)
+    at ServerRoot (app-index.js:145:46)
+    at Root (app-index.js:165:11)
+overrideMethod @ hook.js:600
+hook.js:608 React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports. Error Component Stack
+    at ImageLibrary (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageLibrary.tsx:16:53)
+    at BailoutToCSR (dynamic-bailout-to-csr.js:13:11)
+    at Suspense (<anonymous>)
+    at LoadableComponent (<anonymous>)
+    at MetaPage (<anonymous>)
+    at ClientPageRoot (client-page.js:14:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at MantineThemeProvider (MantineThemeProvider.mjs:33:11)
+    at MantineProvider (MantineProvider.mjs:30:11)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout (C:\AI-TOOLS\SD\sd_gallery-1\src\app\layout.tsx:59:3)
+    at ClientSegmentRoot (client-segment.js:14:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at DevRootHTTPAccessFallbackBoundary (dev-root-http-access-fallback-boundary.js:33:11)
+    at ReactDevOverlay (ReactDevOverlay.js:80:9)
+    at HotReload (hot-reloader-client.js:379:11)
+    at Router (app-router.js:183:11)
+    at ErrorBoundaryHandler (error-boundary.js:120:9)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at AppRouter (app-router.js:563:11)
+    at ServerRoot (app-index.js:145:46)
+    at Root (app-index.js:165:11)
+overrideMethod @ hook.js:608
+hook.js:600 React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports. Error Component Stack
+    at ImageLibrary (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageLibrary.tsx:16:53)
+    at BailoutToCSR (dynamic-bailout-to-csr.js:13:11)
+    at Suspense (<anonymous>)
+    at LoadableComponent (<anonymous>)
+    at MetaPage (<anonymous>)
+    at ClientPageRoot (client-page.js:14:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at MantineThemeProvider (MantineThemeProvider.mjs:33:11)
+    at MantineProvider (MantineProvider.mjs:30:11)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout (C:\AI-TOOLS\SD\sd_gallery-1\src\app\layout.tsx:59:3)
+    at ClientSegmentRoot (client-segment.js:14:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at DevRootHTTPAccessFallbackBoundary (dev-root-http-access-fallback-boundary.js:33:11)
+    at ReactDevOverlay (ReactDevOverlay.js:80:9)
+    at HotReload (hot-reloader-client.js:379:11)
+    at Router (app-router.js:183:11)
+    at ErrorBoundaryHandler (error-boundary.js:120:9)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at AppRouter (app-router.js:563:11)
+    at ServerRoot (app-index.js:145:46)
+    at Root (app-index.js:165:11)
+overrideMethod @ hook.js:600
+hook.js:608 Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+
+Check the render method of `ImageLibrary`.
+    at createFiberFromTypeAndProps (react-dom-client.development.js:13366:28)
+    at createFiberFromElement (react-dom-client.development.js:13380:14)
+    at createChild (react-dom-client.development.js:6432:26)
+    at reconcileChildrenArray (react-dom-client.development.js:6763:25)
+    at reconcileChildFibersImpl (react-dom-client.development.js:7085:30)
+    at eval (react-dom-client.development.js:7189:33)
+    at reconcileChildren (react-dom-client.development.js:7753:13)
+    at beginWork (react-dom-client.development.js:9957:13)
+    at runWithFiberInDEV (react-dom-client.development.js:544:16)
+    at performUnitOfWork (react-dom-client.development.js:15064:22)
+    at workLoopSync (react-dom-client.development.js:14888:41)
+    at renderRootSync (react-dom-client.development.js:14868:11)
+    at performWorkOnRoot (react-dom-client.development.js:14394:44)
+    at performSyncWorkOnRoot (react-dom-client.development.js:15970:7)
+    at flushSyncWorkAcrossRoots_impl (react-dom-client.development.js:15830:21)
+    at processRootScheduleInMicrotask (react-dom-client.development.js:15864:7)
+    at eval (react-dom-client.development.js:15986:13)
+
+The above error occurred in the <div> component. It was handled by the <ReactDevOverlay> error boundary. Error Component Stack
+    at div (<anonymous>)
+    at ImageLibrary (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageLibrary.tsx:16:53)
+    at BailoutToCSR (dynamic-bailout-to-csr.js:13:11)
+    at Suspense (<anonymous>)
+    at LoadableComponent (<anonymous>)
+    at MetaPage (<anonymous>)
+    at ClientPageRoot (client-page.js:14:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at MantineThemeProvider (MantineThemeProvider.mjs:33:11)
+    at MantineProvider (MantineProvider.mjs:30:11)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout (C:\AI-TOOLS\SD\sd_gallery-1\src\app\layout.tsx:59:3)
+    at ClientSegmentRoot (client-segment.js:14:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at DevRootHTTPAccessFallbackBoundary (dev-root-http-access-fallback-boundary.js:33:11)
+overrideMethod @ hook.js:608

@@ -1,0 +1,670 @@
+  Server  API Response: {
+  "images": [
+    {
+      "id": "34ff1b19-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "3d Printing",
+      "path": "image/ref-style/3d Printing.jpg",
+      "prompt": "Reference image for 3d Printing art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff2fb5-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Acrylic Paint",
+      "path": "image/ref-style/Acrylic Paint.jpg",
+      "prompt": "Reference image for Acrylic Paint art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff41b7-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Airbrush",
+      "path": "image/ref-style/Airbrush.jpg",
+      "prompt": "Reference image for Airbrush art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff5283-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Algorithmic Art",
+      "path": "image/ref-style/Algorithmic Art.jpg",
+      "prompt": "Reference image for Algorithmic Art art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff5ebc-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Animation",
+      "path": "image/ref-style/Animation.jpg",
+      "prompt": "Reference image for Animation art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff6f17-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Art Glass",
+      "path": "image/ref-style/Art Glass.jpg",
+      "prompt": "Reference image for Art Glass art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff8024-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Assemblage",
+      "path": "image/ref-style/Assemblage.jpg",
+      "prompt": "Reference image for Assemblage art style",
+      "negativePrompt": null,
+      "modelName": null,
+      "loraNames": null,
+      "embeddings": null,
+      "workflowId": null,
+      "wildcardSets": null,
+      "cfg": null,
+      "steps": null,
+      "seed": null,
+      "sampler": null,
+      "size": null,
+      "category": "ref-style",
+      "nsfw": false,
+      "createdAt": "2024-12-27T00:48:17.000Z",
+      "updatedAt": "2024-12-27T00:48:17.000Z",
+      "tags": [],
+      "model": null,
+      "workflow": null
+    },
+    {
+      "id": "34ff8dd6-c3a9-11ef-81da-2cf05d03e45e",
+      "name": "Augmented Reality Art",
+      "path": "image/ref-style/Augmented Reality Art.jpg",
+      "prompt": "Reference image for Augmented Reality Art art style",
+      "negativePrompt": null,
+      "m
+  Server  Processed images: [
+  {
+    "id": "34ff1b19-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "3d Printing",
+    "path": "image/ref-style/3d Printing.jpg",
+    "prompt": "Reference image for 3d Printing art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff2fb5-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Acrylic Paint",
+    "path": "image/ref-style/Acrylic Paint.jpg",
+    "prompt": "Reference image for Acrylic Paint art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff41b7-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Airbrush",
+    "path": "image/ref-style/Airbrush.jpg",
+    "prompt": "Reference image for Airbrush art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff5283-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Algorithmic Art",
+    "path": "image/ref-style/Algorithmic Art.jpg",
+    "prompt": "Reference image for Algorithmic Art art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff5ebc-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Animation",
+    "path": "image/ref-style/Animation.jpg",
+    "prompt": "Reference image for Animation art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff6f17-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Art Glass",
+    "path": "image/ref-style/Art Glass.jpg",
+    "prompt": "Reference image for Art Glass art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff8024-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Assemblage",
+    "path": "image/ref-style/Assemblage.jpg",
+    "prompt": "Reference image for Assemblage art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+    "model": null,
+    "workflow": null
+  },
+  {
+    "id": "34ff8dd6-c3a9-11ef-81da-2cf05d03e45e",
+    "name": "Augmented Reality Art",
+    "path": "image/ref-style/Augmented Reality Art.jpg",
+    "prompt": "Reference image for Augmented Reality Art art style",
+    "negativePrompt": null,
+    "modelName": null,
+    "loraNames": null,
+    "embeddings": null,
+    "workflowId": null,
+    "wildcardSets": null,
+    "cfg": null,
+    "steps": null,
+    "seed": null,
+    "sampler": null,
+    "size": null,
+    "category": "ref-style",
+    "nsfw": false,
+    "createdAt": "2024-12-27T00:48:17.000Z",
+    "updatedAt": "2024-12-27T00:48:17.000Z",
+    "tags": [],
+   
+ Image with src "blob:http://localhost:3000/c3a20ada-01e0-485b-9d3d-133e9821fece" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. 
+overrideMethod @ installHook.js:1
+ Image with src "blob:http://localhost:3000/cad1b67e-ad56-4b90-a01c-a73dacae76d1" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. 
+overrideMethod @ installHook.js:1
+ Image with src "blob:http://localhost:3000/19cf06a2-c2c6-4c40-8e0f-b7502d0c8006" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. 
+overrideMethod @ installHook.js:1
+ Component mounted
+ Image data: Object
+ Metadata: null
+ Component mounted
+ Image data: Object
+ Metadata: null
+ Component mounted
+ Image data: Object
+ Metadata: Object
+ Sending data to server: Object
+ Error details: Object
+overrideMethod @ installHook.js:1
+ [Fast Refresh] rebuilding
+ [Fast Refresh] done in 674ms
+ [Fast Refresh] rebuilding
+ [Fast Refresh] done in 298ms
+ [Fast Refresh] rebuilding
+ [Fast Refresh] done in 585ms
+ [Fast Refresh] rebuilding
+ [Fast Refresh] done in 298ms
+ Sending data to server: Object
+ Error details: Object
+overrideMethod @ installHook.js:1
+ Image with src "blob:http://localhost:3000/d3fbe0be-5ce1-415b-b43e-a9805636d8cf" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. 
+overrideMethod @ installHook.js:1
+ Image with src "blob:http://localhost:3000/127737fd-aeb1-49bf-91f2-d43bd44c0842" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. 
+overrideMethod @ installHook.js:1
+ Image with src "blob:http://localhost:3000/0e6cb8a5-340a-4993-9abb-5cc470b3fa15" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. 
+overrideMethod @ installHook.js:1
+ Component mounted
+ Image data: Object
+ Metadata: null
+ Component mounted
+ Image data: Object
+ Metadata: null
+ Component mounted
+ Image data: Object
+ Metadata: Object
+ Sending data to server: Object
+ Error details: Object
+overrideMethod @ installHook.js:1
+ [Fast Refresh] rebuilding
+ [Fast Refresh] done in 1385ms
+ Original imageData: Object
+ Seed type: bigint
+ Steps type: number
+ CFG type: number
+ Prepared dataToSend: Object
+ Stringified data: {"path":"blob:http://localhost:3000/127737fd-aeb1-49bf-91f2-d43bd44c0842","name":"ComfyUI_00002_.png","prompt":"analog film photo of one chinese teenage girl , bold winged eyeliner,  wearing Glamorous beaded fringe mermaid gown, \ntwintails hair, 1980s (New Wave) Crimped Hair,\nintricate details, freckles, innocent, perfect face, beautiful face, perfect proportions, In the Park faded film, desaturated, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, highly detailed, found footage","negativePrompt":"","modelName":"Pony\\RealGuofeng\\iniverseMixSFWNSFW_ponyRealGuofengV49.safetensors","loraNames":"[\"digitallustv10.Fam0\",\"sagging breasts XL\",\"Nsfw_pov_all_in_one\"]","embeddings":"[]","workflowId":"","wildcardSets":"[]","seed":"952669714441926","sampler":"dpmpp_2m_sde","steps":"30","cfg":"6","size":"","category":"default","nsfw":false}
+ Sending request to server...
+ Response status: 500
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:114 Response headers: Object
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:118 Raw response text: 
+hook.js:608 Error parsing response: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at handleSubmit (C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:122:29)
+overrideMethod @ hook.js:608
+hook.js:608 Error details: Object
+overrideMethod @ hook.js:608
+hook.js:608 Image with src "blob:http://localhost:3000/922eeec4-4e75-49bc-a2e1-7c91b6ed34f1" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. Error Component Stack
+    at eval (image-component.js:239:47)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at div (<anonymous>)
+    at AspectRatio (index.mjs:16:13)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at ScrollAreaViewport (index.mjs:120:13)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at Provider (index.mjs:34:15)
+    at ScrollArea (index.mjs:57:13)
+    at _c (C:\AI-TOOLS\SD\sd_gallery-1\src\components\ui\scroll-area.tsx:11:6)
+    at ImageGrid (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageGrid.tsx:17:29)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at ImageLibrary (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageLibrary.tsx:15:53)
+    at BailoutToCSR (dynamic-bailout-to-csr.js:13:11)
+    at Suspense (<anonymous>)
+    at LoadableComponent (<anonymous>)
+    at MetaPage (<anonymous>)
+    at ClientPageRoot (client-page.js:14:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at MantineThemeProvider (MantineThemeProvider.mjs:33:11)
+    at MantineProvider (MantineProvider.mjs:30:11)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout (C:\AI-TOOLS\SD\sd_gallery-1\src\app\layout.tsx:59:3)
+    at ClientSegmentRoot (client-segment.js:14:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at DevRootHTTPAccessFallbackBoundary (dev-root-http-access-fallback-boundary.js:33:11)
+    at ReactDevOverlay (ReactDevOverlay.js:80:9)
+    at HotReload (hot-reloader-client.js:379:11)
+    at Router (app-router.js:183:11)
+    at ErrorBoundaryHandler (error-boundary.js:120:9)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at AppRouter (app-router.js:563:11)
+    at ServerRoot (app-index.js:145:46)
+    at Root (app-index.js:165:11)
+overrideMethod @ hook.js:608
+hook.js:608 Image with src "blob:http://localhost:3000/4548e9c3-4c4f-4308-9d5c-7e76bbb1b0a9" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. Error Component Stack
+    at eval (image-component.js:239:47)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at div (<anonymous>)
+    at AspectRatio (index.mjs:16:13)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at ScrollAreaViewport (index.mjs:120:13)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at Provider (index.mjs:34:15)
+    at ScrollArea (index.mjs:57:13)
+    at _c (C:\AI-TOOLS\SD\sd_gallery-1\src\components\ui\scroll-area.tsx:11:6)
+    at ImageGrid (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageGrid.tsx:17:29)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at ImageLibrary (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageLibrary.tsx:15:53)
+    at BailoutToCSR (dynamic-bailout-to-csr.js:13:11)
+    at Suspense (<anonymous>)
+    at LoadableComponent (<anonymous>)
+    at MetaPage (<anonymous>)
+    at ClientPageRoot (client-page.js:14:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at MantineThemeProvider (MantineThemeProvider.mjs:33:11)
+    at MantineProvider (MantineProvider.mjs:30:11)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout (C:\AI-TOOLS\SD\sd_gallery-1\src\app\layout.tsx:59:3)
+    at ClientSegmentRoot (client-segment.js:14:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at DevRootHTTPAccessFallbackBoundary (dev-root-http-access-fallback-boundary.js:33:11)
+    at ReactDevOverlay (ReactDevOverlay.js:80:9)
+    at HotReload (hot-reloader-client.js:379:11)
+    at Router (app-router.js:183:11)
+    at ErrorBoundaryHandler (error-boundary.js:120:9)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at AppRouter (app-router.js:563:11)
+    at ServerRoot (app-index.js:145:46)
+    at Root (app-index.js:165:11)
+overrideMethod @ hook.js:608
+hook.js:608 Image with src "blob:http://localhost:3000/a152613a-2110-4aff-9c96-3b97f458d4c6" is using deprecated "onLoadingComplete" property. Please use the "onLoad" property instead. Error Component Stack
+    at eval (image-component.js:239:47)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at div (<anonymous>)
+    at AspectRatio (index.mjs:16:13)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at ScrollAreaViewport (index.mjs:120:13)
+    at div (<anonymous>)
+    at Primitive.div (index.mjs:36:13)
+    at Provider (index.mjs:34:15)
+    at ScrollArea (index.mjs:57:13)
+    at _c (C:\AI-TOOLS\SD\sd_gallery-1\src\components\ui\scroll-area.tsx:11:6)
+    at ImageGrid (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageGrid.tsx:17:29)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at div (<anonymous>)
+    at ImageLibrary (C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageLibrary.tsx:15:53)
+    at BailoutToCSR (dynamic-bailout-to-csr.js:13:11)
+    at Suspense (<anonymous>)
+    at LoadableComponent (<anonymous>)
+    at MetaPage (<anonymous>)
+    at ClientPageRoot (client-page.js:14:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at InnerLayoutRouter (layout-router.js:231:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at LoadingBoundary (layout-router.js:328:11)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at InnerScrollAndFocusHandler (layout-router.js:139:9)
+    at ScrollAndFocusHandler (layout-router.js:216:11)
+    at RenderFromTemplateContext (render-from-template-context.js:16:44)
+    at OuterLayoutRouter (layout-router.js:365:11)
+    at main (<anonymous>)
+    at div (<anonymous>)
+    at MantineThemeProvider (MantineThemeProvider.mjs:33:11)
+    at MantineProvider (MantineProvider.mjs:30:11)
+    at body (<anonymous>)
+    at html (<anonymous>)
+    at RootLayout (C:\AI-TOOLS\SD\sd_gallery-1\src\app\layout.tsx:59:3)
+    at ClientSegmentRoot (client-segment.js:14:11)
+    at RedirectErrorBoundary (redirect-boundary.js:75:9)
+    at RedirectBoundary (redirect-boundary.js:83:11)
+    at HTTPAccessFallbackErrorBoundary (error-boundary.js:90:9)
+    at HTTPAccessFallbackBoundary (error-boundary.js:98:11)
+    at DevRootHTTPAccessFallbackBoundary (dev-root-http-access-fallback-boundary.js:33:11)
+    at ReactDevOverlay (ReactDevOverlay.js:80:9)
+    at HotReload (hot-reloader-client.js:379:11)
+    at Router (app-router.js:183:11)
+    at ErrorBoundaryHandler (error-boundary.js:120:9)
+    at ErrorBoundary (error-boundary.js:166:11)
+    at AppRouter (app-router.js:563:11)
+    at ServerRoot (app-index.js:145:46)
+    at Root (app-index.js:165:11)
+overrideMethod @ hook.js:608
+C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageMetadata.tsx:59 Component mounted
+C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageMetadata.tsx:60 Image data: Object
+C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageMetadata.tsx:61 Metadata: null
+hook.js:377 Component mounted
+hook.js:377 Image data: Object
+hook.js:377 Metadata: null
+C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageMetadata.tsx:59 Component mounted
+C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageMetadata.tsx:60 Image data: Object
+C:\AI-TOOLS\SD\sd_gallery-1\src\components\meta\ImageMetadata.tsx:61 Metadata: Object
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:73 Original imageData: Object
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:74 Seed type: bigint
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:75 Steps type: number
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:76 CFG type: number
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:100 Prepared dataToSend: Object
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:101 Stringified data: {"path":"blob:http://localhost:3000/4548e9c3-4c4f-4308-9d5c-7e76bbb1b0a9","name":"ComfyUI_00002_.png","prompt":"analog film photo of one chinese teenage girl , bold winged eyeliner,  wearing Glamorous beaded fringe mermaid gown, \ntwintails hair, 1980s (New Wave) Crimped Hair,\nintricate details, freckles, innocent, perfect face, beautiful face, perfect proportions, In the Park faded film, desaturated, 35mm photo, grainy, vignette, vintage, Kodachrome, Lomography, stained, highly detailed, found footage","negativePrompt":"","modelName":"Pony\\RealGuofeng\\iniverseMixSFWNSFW_ponyRealGuofengV49.safetensors","loraNames":"[\"digitallustv10.Fam0\",\"sagging breasts XL\",\"Nsfw_pov_all_in_one\"]","embeddings":"[]","workflowId":"","wildcardSets":"[]","seed":"952669714441926","sampler":"dpmpp_2m_sde","steps":"30","cfg":"6","size":"","category":"default","nsfw":false}
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:104 Sending request to server...
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:113 Response status: 500
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:114 Response headers: Object
+C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:118 Raw response text: 
+hook.js:608 Error parsing response: SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at handleSubmit (C:\AI-TOOLS\SD\sd_gallery-1\src\app\meta\confirm\page.tsx:122:29)
+overrideMethod @ hook.js:608
+hook.js:608 Error details: Object
+overrideMethod @ hook.js:608
+hot-reloader-client.js:241 [Fast Refresh] rebuilding
+hot-reloader-client.js:68 [Fast Refresh] done in 4403ms

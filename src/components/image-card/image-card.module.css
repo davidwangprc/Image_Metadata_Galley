@@ -1,0 +1,98 @@
+.card {
+  position: relative;
+  background-color: var(--background-dark);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.imageLink {
+  display: block;
+  text-decoration: none;
+}
+
+.imageWrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%; /* 1:1 宽高比 */
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.image {
+  object-fit: cover;
+  transition: opacity 0.2s ease;
+}
+
+.loading {
+  opacity: 0;
+}
+
+.nsfwOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 600;
+}
+
+.info {
+  padding: 1rem;
+  background-color: var(--background-dark);
+  border-top: 1px solid var(--border-color);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--foreground);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.prompt {
+  font-size: 0.875rem;
+  color: var(--foreground);
+  opacity: 0.8;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.footer {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+/* 响应式调整 */
+@media (max-width: 768px) {
+  .info {
+    padding: 0.75rem;
+  }
+  
+  .title {
+    font-size: 0.875rem;
+  }
+  
+  .prompt {
+    font-size: 0.75rem;
+  }
+} 
